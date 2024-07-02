@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetChess", "NetChess.vcxproj", "{978A753E-D9A3-44E6-8E7F-242DB3FD32AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{978A753E-D9A3-44E6-8E7F-242DB3FD32AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{978A753E-D9A3-44E6-8E7F-242DB3FD32AA}.Debug|x86.Build.0 = Debug|Win32
+		{978A753E-D9A3-44E6-8E7F-242DB3FD32AA}.Release|x86.ActiveCfg = Release|Win32
+		{978A753E-D9A3-44E6-8E7F-242DB3FD32AA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA9FC53-1563-4B4A-A5B9-B24737789F9C}
+	EndGlobalSection
+EndGlobal

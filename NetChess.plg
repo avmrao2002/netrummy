@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetChess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NetChess.res" /d "_DEBUG" "D:\avm\software\NetRummy\NetChess.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetChess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\software\NetRummy\AcceptDlg.cpp"
+"D:\avm\software\NetRummy\CardCountDlg.cpp"
+"D:\avm\software\NetRummy\ChessBoard.cpp"
+"D:\avm\software\NetRummy\ClientSocket.cpp"
+"D:\avm\software\NetRummy\HelpDlg.cpp"
+"D:\avm\software\NetRummy\History.cpp"
+"D:\avm\software\NetRummy\HistoryDlg.cpp"
+"D:\avm\software\NetRummy\MainFrm.cpp"
+"D:\avm\software\NetRummy\MessageSend.cpp"
+"D:\avm\software\NetRummy\MyColorDialog.cpp"
+"D:\avm\software\NetRummy\NetChess.cpp"
+"D:\avm\software\NetRummy\NetChessDoc.cpp"
+"D:\avm\software\NetRummy\NetChessView.cpp"
+"D:\avm\software\NetRummy\Options.cpp"
+"D:\avm\software\NetRummy\PropertiesDlg.cpp"
+"D:\avm\software\NetRummy\ServerInfoDlg.cpp"
+"D:\avm\software\NetRummy\ServerSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP153.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetChess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\software\NetRummy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP154.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/NetRummy.pdb" /debug /machine:I386 /out:"Debug/NetRummy.exe" /pdbtype:sept 
+.\Debug\AcceptDlg.obj
+.\Debug\CardCountDlg.obj
+.\Debug\ChessBoard.obj
+.\Debug\ClientSocket.obj
+.\Debug\HelpDlg.obj
+.\Debug\History.obj
+.\Debug\HistoryDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\MessageSend.obj
+.\Debug\MyColorDialog.obj
+.\Debug\NetChess.obj
+.\Debug\NetChessDoc.obj
+.\Debug\NetChessView.obj
+.\Debug\Options.obj
+.\Debug\PropertiesDlg.obj
+.\Debug\ServerInfoDlg.obj
+.\Debug\ServerSocket.obj
+.\Debug\StdAfx.obj
+.\Debug\NetChess.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP155.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AcceptDlg.cpp
+CardCountDlg.cpp
+ChessBoard.cpp
+ClientSocket.cpp
+HelpDlg.cpp
+History.cpp
+HistoryDlg.cpp
+MainFrm.cpp
+MessageSend.cpp
+MyColorDialog.cpp
+NetChess.cpp
+NetChessDoc.cpp
+NetChessView.cpp
+D:\avm\software\NetRummy\NetChessView.cpp(672) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(670) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(669) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(671) : warning C4101: 'to_piece_type' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1262) : warning C4101: 'piece_side' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1275) : warning C4101: 'piece_side' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1293) : warning C4101: 'piece_side' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1328) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1326) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1325) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1327) : warning C4101: 'to_piece_type' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1334) : warning C4101: 'piece_side' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1408) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1406) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1405) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1407) : warning C4101: 'to_piece_type' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1414) : warning C4101: 'piece_side' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1448) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1446) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1445) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1447) : warning C4101: 'to_piece_type' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1794) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1792) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1791) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1793) : warning C4101: 'to_piece_type' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1815) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1813) : warning C4101: 'to_piece_color' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1812) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetRummy\NetChessView.cpp(1814) : warning C4101: 'to_piece_type' : unreferenced local variable
+Options.cpp
+PropertiesDlg.cpp
+ServerInfoDlg.cpp
+ServerSocket.cpp
+D:\avm\software\NetRummy\ServerSocket.cpp(93) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+Generating Code...
+D:\avm\software\NetRummy\NetChessView.cpp(388) : warning C4700: local variable 'bkcrRef' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+NetRummy.exe - 0 error(s), 31 warning(s)
+</pre>
+</body>
+</html>
